@@ -1,0 +1,4 @@
+com\bpm\event\ProcessEventListener.class
+com\bpm\event\CustomProcessEventListener.class
+com\bpm\event\CustomTaskListener.class
+com\bpm\jbpm_event_listeners\App.class
