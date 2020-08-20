@@ -1,0 +1,30 @@
+package com.cts.training.day5;
+
+import com.cts.training.day5.Product;
+
+rule "first-product-rule"
+ruleflow-group "productrfg"
+
+when
+ //$product:Product()
+ $product:Product($productPrice:productPrice>50000)
+
+then
+    System.out.println("first product rule invoked");
+    $product.setDiscount(0.1*$productPrice);
+    
+end    
+
+rule "second-product-rule"
+ruleflow-group "productrfg"
+
+when
+ //$product:Product()
+ $product:Product($productPrice:productPrice>50000)
+
+then
+    System.out.println("second product rule invoked");
+    $product.setDiscount(0.1*$productPrice);
+    
+end    
+
