@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Implementation-Title: Kogito Example :: Onboarding Example :: Onboardi
+ ng with Business Process Spring Boot
+Automatic-Module-Name: 
+Implementation-Version: 1.4.0.Final
+Java-Version: 1.8.0_261
+Built-By: Aragunta jyothi
+Scm-Connection: scm:git:https://github.com/kiegroup/kogito-examples.gi
+ t/onboarding-example/onboarding-springboot
+Specification-Vendor: JBoss by Red Hat
+Os-Arch: amd64
+Specification-Title: Kogito Example :: Onboarding Example :: Onboardin
+ g with Business Process Spring Boot
+Implementation-Vendor-Id: org.kie.kogito.examples
+Java-Vendor: Oracle Corporation
+Os-Name: Windows 10
+Scm-Url: https://github.com/kiegroup/kogito-examples/onboarding-exampl
+ e/onboarding-springboot
+Implementation-Vendor: JBoss by Red Hat
+Os-Version: 10.0
+Scm-Revision: 
+Build-Jdk: 1.8.0_261
+Specification-Version: 1.4
+Created-By: Maven Integration for Eclipse
+Implementation-URL: http://kogito.kie.org/onboarding-example/onboardin
+ g-springboot
+
